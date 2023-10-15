@@ -22,4 +22,12 @@ app.on('ready', function() {
             slashes: true
         }
     ))
+
+    // Para Remover ou Modificando o Menu
+    const mainMenu = Menu.buildFromTemplate(menuTemplate)
+    Menu.setApplicationMenu(mainMenu)
 })
+
+const menuTemplate = [
+    
+]
