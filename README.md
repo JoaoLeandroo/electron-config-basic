@@ -17,7 +17,7 @@ Como start o Electron
 npm install electron-packager -g
 
 7° Após a instalação do electron packager, navegue até a pasta do projeto electron e passe o seguinte comando:
-electron-packager . "Nome Do Executavel" --platform-win64 --arch=ia64
+electron-packager . "Nome Do Executavel" --platform=win64 --arch=x64
 
 *No exemplo acima o projeto foi feito para ser executado na plataforma windows, para executar nas demais plataformas, basta consultar a documentação.
 
